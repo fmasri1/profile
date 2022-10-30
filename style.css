@@ -26,11 +26,11 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Baloo Chettan 2', cursive;
   font-weight: 600;
   color: #4FA095;
-  line-height: 50px;
+  line-height: 100px;
 }
 
 .container {
@@ -62,7 +62,7 @@ body{
   line-height: 25px;
   margin: 0;
   padding: 10px 12px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
