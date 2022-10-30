@@ -1,0 +1,89 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #E14D2A;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-weight: 600;
+  color: #4FA095;
+  line-height: 50px;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 25px;
+  font-family: 'Noto Sans Vai', sans-serif;
+  font-weight: 600;
+  line-height: 35px;
+  color: #3E6D9C;
+  background-color: #c4cfc8;
+}
+
+#image-circle {
+  height: auto;
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+#button {
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: grey;
+  line-height: 25px;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 20px;
+}
+
+
+.blue-icon {
+  color: #3E6D9C;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.card-beige{
+  background-color: #FFF8EA;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 2px 2px 50px #bfbcbc;
+  border: 5px solid white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
